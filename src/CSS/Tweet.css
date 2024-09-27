@@ -1,0 +1,77 @@
+.tweet-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+.tweet-wrapper {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 1.5rem;
+    width: 600px;
+    font-size: larger;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-content {
+    margin-bottom: 1rem;
+    word-wrap: break-word; 
+}
+
+.tweet-edit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px; 
+}
+
+input[type="text"]:focus {
+    border-color: #1da1f2; 
+}
+
+.edit-tweet button {
+    padding: 0.5rem 1rem;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    transition: background-color 0.3s ease;
+}
+
+.edit-tweet button:hover {
+    background-color: #0d8ddd;
+}
+
+.like-createdAt-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.likes, .created-at {
+    font-size: small;
+    color: #555; 
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.created-at {
+    display: flex;
+    align-items: center;
+    color: #777;
+}
