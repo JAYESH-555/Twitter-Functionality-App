@@ -2,9 +2,9 @@
 
 This is a simple Twitter clone built using React. It mimics basic Twitter functionality, allowing users to tweet, edit, like, and delete tweets. This project serves as a React practice project with no backend connection—everything runs entirely on the client-side.
 
-# 🚀 Live Demo 
+# 🚀 Live Demo deployed on Vercel
 
-Check out the live version here: [Twitter](https://tic-tac-toe-game-jayesh-555s-projects.vercel.app/)
+Check out the live version here: [Mini-Twitter](https://mini-twitter-app-jayesh-555s-projects.vercel.app/)
 
 # ✨ Features
 
