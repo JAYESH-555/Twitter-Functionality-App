@@ -37,7 +37,7 @@ No Backend: This app is fully client-side and not connected to any server or dat
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/twitter-clone-app.git
+    git clone https://github.com/JAYESH-555/Twitter-Functionality-App.git
 
 
 2. Navigate to the project directory:
